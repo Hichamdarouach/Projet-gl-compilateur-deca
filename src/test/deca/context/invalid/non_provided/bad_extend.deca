@@ -1,0 +1,13 @@
+// Description:
+//    Déclaration d'une classe vide qui étend 
+//    une classe non déclarée
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 17/01/2020
+
+class A extends B {
+
+}

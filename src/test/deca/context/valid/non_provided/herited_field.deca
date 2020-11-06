@@ -1,0 +1,9 @@
+class C {
+    int x;
+    int y;
+}
+
+class D extends C {
+    int x = 0;
+    int z;
+}

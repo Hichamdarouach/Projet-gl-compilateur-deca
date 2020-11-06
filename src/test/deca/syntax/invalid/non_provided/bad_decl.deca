@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste avec erreur avec mauvaise affectation
+//    Manque du ';'
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 11/01/2020
+
+{
+    int a = 27
+}

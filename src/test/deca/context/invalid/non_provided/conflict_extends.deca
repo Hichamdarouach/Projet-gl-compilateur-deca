@@ -1,0 +1,12 @@
+// Description:
+//    Conflit dans l'extension avec une cycle
+//
+// Resultats:
+//    11:0: Error: héritage cyclique impliquant A
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A extends A {
+    
+}

@@ -1,0 +1,12 @@
+// Description:
+//    test comparaison boolean
+//
+// Resultats:
+//    OK
+
+{
+  boolean valid = true;
+  if (valid > false){
+    println("Fail");
+  }
+}

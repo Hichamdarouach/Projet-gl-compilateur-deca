@@ -1,0 +1,17 @@
+// Description:
+//    Déclaration d'une variable de type Objet
+//    qui n'existe pas 
+//
+// Resultats:
+//    16:4: Type: B n'existe pas
+//
+// Historique:
+//    cree le 20/01/2020
+
+class A {
+
+}
+
+{
+    B counter = new B();
+}

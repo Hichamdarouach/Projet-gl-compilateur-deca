@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste avec erreur de syntaxe
+//    dans l'utilisation de l'instruction 'while'
+//
+// Resultats:
+//    Erreur : 12:10: missing '(' at 'true'
+//
+// Historique:
+//    cree le 15/01/2020
+
+{
+    while true {
+        
+    }
+}

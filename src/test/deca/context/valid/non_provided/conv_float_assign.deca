@@ -1,0 +1,16 @@
+// Description:
+//    Utilisation de la conversion en float
+//    lors d'une affectation 
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 14/01/2020
+
+{
+    int a = 3;
+    float b;
+
+    b = a;
+}

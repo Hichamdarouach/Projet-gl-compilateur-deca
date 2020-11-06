@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste testant la classe Math
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 25/01/2020
+#include "Math.decah"
+{
+  Math m = new Math();
+  float r;
+  r = m.power(1.0, 1);
+  println(r);
+}

@@ -1,0 +1,44 @@
+// Description:
+//    Programme avec classes, méthodes et champs,
+//    ainsi qu'un main utilisant une des classes
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class B {
+    boolean bool;
+}
+
+class A {
+    protected float x; 
+    int a = 7;
+
+    protected float y;
+    float b = 0.7;
+
+    boolean z;
+    boolean c = true;
+
+    string s;
+    string text = "Hello World !";
+
+    void methodTest(boolean y, A objetA, float x) {
+        B b = new B();
+        b.bool = y;
+        this.x = x+1;
+        y = true;
+        objetA.b = 8.5; 
+    }
+
+    void methodTest(boolean y, A objetA, int x) {
+
+    }
+}
+
+{
+    A a = new A();
+    a.methodTest(true, a, 5);
+}

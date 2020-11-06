@@ -1,0 +1,15 @@
+// Description:
+//    Conversion en float lors d'un 'return'
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+    float getY() {
+        int a = 5;
+        return a;
+    }
+}

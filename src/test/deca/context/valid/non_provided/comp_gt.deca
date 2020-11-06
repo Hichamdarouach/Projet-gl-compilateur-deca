@@ -1,0 +1,13 @@
+// Description:
+//    Comparaison supérieur stricte entre un entier
+//    et un flottant
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 15/01/2020
+
+{
+    boolean b = 5 > 8.35;
+}

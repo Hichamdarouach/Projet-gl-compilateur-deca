@@ -1,0 +1,16 @@
+// Description:
+//    test or, avec convfloat
+//
+// Resultats:
+//    Test réussi
+
+{
+  int c = 0;
+  float a = 1.0;
+  if (c == 1 || 5.3 > 5){
+    println("Test réussi");
+  }
+  if (3.1 < 10){
+    println("Encore réussi");
+  }
+}

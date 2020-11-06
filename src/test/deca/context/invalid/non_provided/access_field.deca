@@ -1,0 +1,26 @@
+// Description:
+//    Accès à un attribut protégé
+//
+// Resultats:
+//    25:6: x est protégé
+// 
+// Historique:
+//    cree le 22/01/2020
+
+class A {
+    protected boolean x;
+
+    void setX(boolean x) {
+        this.x = x;
+    }
+
+    boolean getX() {
+        return x;
+    }
+}
+
+{
+    A a = new A();
+    a.setX(true);
+    a.x = false;
+}

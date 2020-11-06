@@ -1,0 +1,13 @@
+// Description:
+//    Double déclaration d'une variable de même nom
+//
+// Resultats:
+//    12:11: a already declared
+//
+// Historique:
+//    cree le 22/01/2020
+
+{
+    int a = 5;
+    string a;
+}

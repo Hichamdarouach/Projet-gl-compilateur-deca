@@ -1,0 +1,15 @@
+// Description:
+//    Utilisation de l'intruction if-else avec erreur contextuelle
+//
+// Resultats:
+//    La condition doit être de type booléen
+// 
+// Historique:
+//    cree le 14/01/2020
+
+{
+    int a;
+    if(a) { // La condition doit être booléenne
+
+    }
+}

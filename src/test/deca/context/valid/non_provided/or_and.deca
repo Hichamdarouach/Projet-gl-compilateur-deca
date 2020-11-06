@@ -1,0 +1,14 @@
+// Description:
+//      Test sur l opération logique OU
+//
+// Resultats:
+//      a = true
+//
+// Historique:
+//    cree le 17/01/2020
+
+{
+    boolean a = true || 5 < 3 ;
+    a = false && a;
+    println("a = ", a);
+}

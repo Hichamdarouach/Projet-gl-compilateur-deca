@@ -1,0 +1,20 @@
+// Description:
+//    Programme minimaliste testant la classe Math
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 25/01/2020
+#include "Math.decah"
+{
+  Math m = new Math();
+  float r = 1;
+  float a;
+  float b;
+  while (r <= 10000000){
+    a = m.cos(r);
+    b = m.sin(r);
+    r = r + 100000;
+  }
+  }

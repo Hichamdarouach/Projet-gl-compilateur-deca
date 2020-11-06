@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste utilisant une opération arithmétique et une affectation
+//
+// Resultats:
+//    a = 15.85
+//
+// Historique:
+//    cree le 11/01/2020
+
+{
+    float a = 3.17; 
+    a = a * 5;
+    println("a = ", a);
+}

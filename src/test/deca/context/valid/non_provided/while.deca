@@ -1,0 +1,19 @@
+// Description:
+//    Utilisation de l'intruction while
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 14/01/2020
+
+{
+    int a = 0;
+    boolean r = true;
+ 
+    while(r) {
+        println("a = ", a);
+	    r = false;
+    }
+
+}

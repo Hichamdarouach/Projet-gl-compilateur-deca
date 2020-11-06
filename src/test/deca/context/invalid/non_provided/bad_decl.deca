@@ -1,0 +1,12 @@
+// Description:
+//    Declaration d'une variable 'void', contextuellement faux
+//
+// Resultats:
+//    Variables can't be declared as void type
+// 
+// Historique:
+//    cree le 14/01/2020
+
+{
+    void x ;
+}

@@ -1,0 +1,18 @@
+// Description:
+//    test else if
+//
+// Resultats:
+//    Réussite
+
+{
+  int b = 0;
+  if (b == 2){
+    println("Non 1");
+  }
+  else if (b > 0.2){
+    println("Non 2");
+  }
+  else {
+    println("Réussite");
+  }
+}

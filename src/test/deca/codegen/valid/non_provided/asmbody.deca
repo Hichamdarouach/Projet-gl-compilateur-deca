@@ -1,0 +1,8 @@
+class A{
+  void meth() asm ("  LOAD #1, R1
+  WINT");
+}
+{
+  A a = new A();
+  println(a.meth());
+}

@@ -1,0 +1,15 @@
+// compiler le code produit par decac -p
+
+/* first comment */
+{
+	println("This should be displayed");
+	/* second comment */
+	println("This is /* not a comment");
+	if (false) {
+		println("This is */ not a comment");
+	}
+	/* If the implementation of comment is greedy, the first
+	 * { will be considered inside a big comment, and the result
+	 * won't be compilable.
+	 */
+}

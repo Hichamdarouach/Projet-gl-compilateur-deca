@@ -1,0 +1,10 @@
+// Description:
+//    test double initialization
+//
+// Resultats:
+//    1
+
+{
+  int x=1, y=x;
+  println(y);
+}

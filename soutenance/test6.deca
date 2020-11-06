@@ -1,0 +1,38 @@
+
+{
+   int i ; 
+   int x ; 
+
+   while (false) {
+      print("erreur ") ; 
+   }
+
+   i = 1 ; 
+   x = 0 ; 
+   while (i <= 1) { 
+      x = x + 1 ; 
+      i = i + 1 ; 
+   }
+
+   if (x == 1) {
+      print("ok ") ; 
+   } else {
+      print("erreur ") ; 
+   }
+
+   i = 1 ; 
+   x = 0 ; 
+   while (i <= 2) {
+      x = x + 1 ;
+      i = i + 1 ;
+   }
+
+   if (x == 2) {
+      print("ok ") ;
+   } else {
+      print("erreur ") ;
+   }
+
+   println() ; 
+}
+

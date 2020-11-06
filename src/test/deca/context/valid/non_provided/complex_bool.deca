@@ -1,0 +1,21 @@
+// Description:
+//    Affectation d'une expression booléenne complexe
+//
+// Resultats:
+//    b = false;
+//
+// Historique:
+//    cree le 22/01/2020
+
+{
+    float x = 5.3;
+    int y = 8;
+    boolean b = (!((x < 3) && true)) || (((y > 5) || (x == y)) && (x != y));
+
+    if(b) {
+        println("b = ", b);
+    }
+    else {
+        println("b = ", b);
+    }
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Programme minimaliste "testant" les guillemets dans les commentaires
+//
+// Resultats:
+//  OK
+//
+// Historique:
+//    cree le 18/01/2020
+
+{
+  int a = 2;
+}

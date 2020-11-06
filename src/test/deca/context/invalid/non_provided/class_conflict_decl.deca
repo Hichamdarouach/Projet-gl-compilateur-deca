@@ -1,0 +1,16 @@
+// Description:
+//    Conflit de double déclaration de classe
+//
+// Resultats:
+//    14:6: Class A already declared
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+
+}
+
+class A {
+
+}

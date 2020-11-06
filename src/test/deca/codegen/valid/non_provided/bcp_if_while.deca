@@ -1,0 +1,31 @@
+// Description:
+//    test if, if, else
+//
+// Resultats:
+//    Oui
+//    Test réussi
+
+{
+  int a = 1;
+  int z = 3;
+  boolean var = true;
+  if (a > 2.4){
+    a = a + 4;
+  }
+  else if (a <= 0.6){
+    a = a - 2;
+  }
+
+  while (var == true){
+    if ( a >= 3){
+      var = false;
+    }
+    println(a);
+    a = a + 1;
+  }
+  println("DA");
+  while (a < 6){
+    println(a);
+    a = a + 1;
+  }
+}

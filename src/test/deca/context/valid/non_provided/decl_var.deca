@@ -1,0 +1,20 @@
+// Description:
+//    Programme minimaliste utilisant la déclaration avec 
+//    et sans initialisation
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 13/01/2020
+
+{
+    int a;
+    int b = 7;
+
+    float c;
+    float d = 5.23;
+
+    boolean e;
+    boolean f = true;
+}

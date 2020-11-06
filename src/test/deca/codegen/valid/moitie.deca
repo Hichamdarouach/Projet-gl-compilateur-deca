@@ -1,0 +1,13 @@
+// Description:
+//    test moitie.deca poly
+//    affichage en flottant de la moitié du carré d’un entier
+//
+// Resultats:
+//    OK
+
+
+{
+   int x ;
+   x=readInt() ;
+   println(0.5*(x*x)) ;
+}

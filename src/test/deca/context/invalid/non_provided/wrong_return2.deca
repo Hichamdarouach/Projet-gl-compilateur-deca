@@ -1,0 +1,14 @@
+// Description:
+//    Mauvais type de retour pour une méthode
+//
+// Resultats:
+//    12:8: Mauvais type de retour
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+    void getY() {
+        return 5;
+    }
+}

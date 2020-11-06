@@ -1,0 +1,17 @@
+// Description:
+//    Comparaison entre un booléen et un entier
+//
+// Resultats:
+//    14:12: Bad operand type for comparison operator
+// 
+// Historique:
+//    cree le 16/01/2020
+
+{
+    boolean a = true;
+    int b = 7;
+
+    while(a < b) {
+        println("Error");
+    }
+}

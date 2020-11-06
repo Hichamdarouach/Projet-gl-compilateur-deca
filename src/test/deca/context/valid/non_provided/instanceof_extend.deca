@@ -1,0 +1,26 @@
+// Description:
+//    Exemple utilisant l'instruction instanceof 
+//    avec des héritages
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 27/01/2020
+
+class A {
+
+}
+
+class B extends A {
+
+}
+
+{
+    A a = new A();
+    A b = new B();
+
+    if(b instanceof A) {
+        print("Ok");
+    }
+}

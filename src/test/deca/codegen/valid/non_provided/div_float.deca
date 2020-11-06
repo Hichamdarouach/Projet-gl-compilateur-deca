@@ -1,0 +1,16 @@
+// Description:
+//    test division float
+//
+// Resultats:
+//    4.00000e+00
+//    4.28571e+00
+
+{
+  int a = 6;
+  float b = 1.4;
+  float c = 1.5;
+  c = a / c;
+  println(c);
+  c = a / b;
+  println(c);
+}

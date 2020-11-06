@@ -1,0 +1,11 @@
+// Description:
+//    test nombres négatifs
+//
+// Resultats:
+//    -2.88
+
+{
+  int b = -2;
+  float y = 1.2;
+  println(b*y*y);
+}

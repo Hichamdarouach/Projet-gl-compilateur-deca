@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste avec declaration et affectation
+//    ainsi qu'une opération arithmétique
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 11/01/2020
+
+{
+    int a;
+    a = 3 + 2;
+}

@@ -1,0 +1,19 @@
+// Description:
+//    Comparaison entre un entier et un flottant
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 16/01/2020
+
+{
+    int a = 5; 
+    float b = 5.0;
+
+    if(a == b) {
+        println("Ok");
+    }
+
+    println("Error");
+}

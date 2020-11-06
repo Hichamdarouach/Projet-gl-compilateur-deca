@@ -1,0 +1,10 @@
+// Ligne 8 : Erreur contextuelle
+
+class A {
+   int f;
+}
+
+class B extends A {
+   int f() { }
+}
+

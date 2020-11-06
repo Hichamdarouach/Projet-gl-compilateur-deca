@@ -1,0 +1,20 @@
+// Description:
+//    Exemple utilisant l'instruction instanceof 
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 27/01/2020
+
+class A {
+
+}
+
+{
+    A a = new A();
+
+    if(a instanceof A) {
+        print("Ok");
+    }
+}

@@ -1,0 +1,66 @@
+// Description:
+//    
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 27/01/2020
+
+class A {
+    protected int x;
+}
+
+class B extends A {
+    float y;
+
+    int abs(int x) {
+        if(x >= 0) {
+            return x;
+        }
+        return ((x-x)-x);
+    }
+
+}
+
+class C extends B {
+    string text;
+
+    void init(int x, float y, string text) {
+        this.x = x; 
+        this.y = y;
+        this.text = text;
+    }
+
+    float abs(float x) {
+        if(x >= 0) {
+            return x;
+        }
+        return ((x-x)-x);
+    }
+}
+
+class D extends A {
+    float y;
+
+    void init(int x, float y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    float bigOperation() {
+        return ((((x + 50)/y)*20.32)-500);
+    }
+}
+
+{
+    D d = new D();
+    C c = new C();
+    int abs_int = c.abs(-3);
+    float abs = c.abs(-653.02541);
+    d.init(3, 7.3245);
+    println("abs(-653.02541) = ", abs);
+    println("abs(-3) = ", abs_int);
+
+    println(d.bigOperation());
+}

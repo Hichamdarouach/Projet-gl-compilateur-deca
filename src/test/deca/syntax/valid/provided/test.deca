@@ -1,0 +1,15 @@
+{
+  int a = 0;
+  if (a == 0){
+    println("youpi");
+  }
+  else if (a == 1){
+    println("youpa");
+  }
+  else if (a == 3){
+    println("NON");
+  }
+  else if (a == 6){
+    println("DARK");
+  }
+}

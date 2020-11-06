@@ -1,0 +1,19 @@
+// Description:
+//    Conflit dans les paramètres lors
+//    de la déclaration d'une méthode
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+    protected int x;
+}
+
+{
+    int a;
+
+    a = 5 + 3;
+}

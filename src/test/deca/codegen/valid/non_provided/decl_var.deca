@@ -1,0 +1,18 @@
+// Description:
+//    test de déclaration avec initialisation
+//    et affichage
+//
+// Resultats:
+//    a = 5.00000e-01
+//    b = 8
+//
+
+{
+    float a = 0.5;
+    int b = 8;
+    float c;
+    int d; 
+
+    println("a = ", a);
+    println("b = ", b);
+}

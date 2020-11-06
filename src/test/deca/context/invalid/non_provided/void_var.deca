@@ -1,0 +1,13 @@
+// Description:
+//    Déclaration d'une variable de type void 
+//    avec initialisation
+//
+// Resultats:
+//    12:9: Variables can't be declared as 'void'
+//
+// Historique:
+//    cree le 17/01/2020
+
+{
+    void a = 5;
+}

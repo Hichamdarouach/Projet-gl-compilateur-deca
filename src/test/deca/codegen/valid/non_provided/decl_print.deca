@@ -1,0 +1,13 @@
+// Description:
+//    test de déclaration avec initialisation
+//    et affichage
+//
+// Resultats:
+//    3
+//
+
+{
+    int a = 3;
+
+    println(a);
+}

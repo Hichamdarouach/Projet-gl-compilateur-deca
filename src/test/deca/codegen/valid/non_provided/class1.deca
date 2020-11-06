@@ -1,0 +1,47 @@
+// Description:
+//    
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 27/01/2020
+
+class A {
+    int x;
+    int y;
+
+    void init(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    int getX() {
+        return x;
+    }
+
+    int getY() {
+        return y;
+    }
+
+    void setX(int x) {
+        this.x = x;
+    }
+
+    void setY(int y) {
+        this.y = y;
+    }
+
+    void translate(int dx, int dy) {
+        x = x + dx;
+        y = y + dy;
+    }
+}
+{
+    A a = new A();
+    a.init(60, 32);
+    a.translate(5, -12);
+
+    println("x = ", a.getX());
+    println("y = ", a.getY());
+}

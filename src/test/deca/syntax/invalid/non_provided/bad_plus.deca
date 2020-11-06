@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste avec erreur lors de l'opération
+//    arithmétique plus '+'
+//
+// Resultats:
+//    Erreur
+//
+// Historique:
+//    cree le 11/01/2020
+
+{
+    int a;
+    a = 1 + ;
+}

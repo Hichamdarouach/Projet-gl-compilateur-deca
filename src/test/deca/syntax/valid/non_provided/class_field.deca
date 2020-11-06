@@ -1,0 +1,17 @@
+// Description:
+//    Programme minimaliste initialisant des field
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 17/01/2020
+
+class Vide
+{
+    protected int a = 0;
+    int b;
+}
+
+{
+}

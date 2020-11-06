@@ -1,0 +1,16 @@
+// Description:
+//    Exemple utilisant l'instruction instanceof
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 27/01/2020
+
+{
+    int x = 10;
+
+    if(x instanceof Object) { // doit déclencher une erreur
+        print("Erreur");
+    }
+}

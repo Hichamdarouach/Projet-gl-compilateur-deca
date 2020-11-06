@@ -1,0 +1,16 @@
+// Description:
+//    test if, if, else
+//
+// Resultats:
+//    Oui
+//    Test réussi
+
+{
+  int a = 1;
+  while ( a <= 10){
+    if (a % 2 == 0){
+      println(a);
+    }
+    a = a +1;
+  }
+}

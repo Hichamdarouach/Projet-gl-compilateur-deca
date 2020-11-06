@@ -1,0 +1,12 @@
+// Description:
+//    mauvais assign
+//
+// Resultats:
+//  erreur d'affectation
+
+{
+  int a = 1;
+  float b = 2.4;
+  a = a / b;
+  println(a);
+}

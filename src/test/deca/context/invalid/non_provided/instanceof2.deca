@@ -1,0 +1,17 @@
+// Description:
+//    Exemple utilisant l'instruction d'affectation 
+//    avec des héritages
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 27/01/2020
+
+{
+    Object objet;
+
+    if(objet instanceof float) { // doit déclencher une erreur
+        print("Erreur");
+    }
+}

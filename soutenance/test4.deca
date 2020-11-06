@@ -1,0 +1,6 @@
+// Erreur contextuelle 
+
+{
+   print(null) ; 
+}
+

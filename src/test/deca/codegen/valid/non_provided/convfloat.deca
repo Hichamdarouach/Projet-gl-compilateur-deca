@@ -1,0 +1,11 @@
+// Description:
+//    test convfloat
+//
+// Resultats:
+//    Test réussi
+
+{
+  if (3.0 == 3){
+    println("Test réussi");
+  }
+}

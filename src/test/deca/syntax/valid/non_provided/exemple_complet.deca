@@ -1,0 +1,24 @@
+// Description:
+//    Exemple complet du poly
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 18/01/2020
+
+class A {
+   protected int x ;
+   int getX() {
+      return x ;
+   }
+   void setX(int x) {
+      this.x = x ;
+   }
+}
+
+{
+   A a = new A() ;
+   a.setX(1) ;
+   println("a.getX() = ", a.getX()) ;
+}

@@ -1,0 +1,8 @@
+/* Commentaire multiligne
+pour tester
+le pb */
+
+{
+  int a = 1;
+  println(a);
+}

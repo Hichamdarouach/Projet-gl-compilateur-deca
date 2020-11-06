@@ -1,0 +1,57 @@
+// Description:
+//    Surcharge d'une méthode
+//
+// Resultats:
+//    Salut
+//    5
+//    5 Hello
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class C {
+    string afficher() {
+        return "Coucou";
+    }
+}
+
+class B extends C {
+    int x;
+
+    int getX() {
+        return x;
+    }
+}
+
+class A extends B {
+    void dire(int a) {
+        println(a);
+    }
+
+    void dire(string b) {
+        println(b);
+    }
+
+    void dire(int a, string b) {
+        println(a, " ", b);
+    }
+}
+
+class D extends B {
+    int x = 5;
+
+    void bonjour() {
+
+    }
+
+    int getX() {
+        return x;
+    }
+}
+
+{
+    A a = new A();
+    a.dire("Salut");
+    a.dire(5);
+    a.dire(5, "Hello");
+}

@@ -1,0 +1,18 @@
+// Description:
+//    Conflit de double déclaration de méthode
+//
+// Resultats:
+//    16:9: La méthode setX est déjà définie
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+    void setX(int a) {
+
+    }
+
+    void setX(int a) {
+        
+    }
+}

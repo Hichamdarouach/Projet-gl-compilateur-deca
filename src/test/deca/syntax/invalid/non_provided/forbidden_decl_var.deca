@@ -1,0 +1,16 @@
+// Description:
+//    Programme minimaliste avec déclaration 
+//    de variable dans un 'if'
+//
+// Resultats:
+//    Erreur : 14:12: no viable alternative at input 'a'
+//
+// Historique:
+//    cree le 15/01/2020
+
+{
+    boolean x = 5 < 3;
+    if(x) {
+        int a = 5;
+    }
+}

@@ -1,0 +1,17 @@
+// Description:
+//      Déclaration d'une classe vide et de sa 
+//      classe fille vide aussi
+//
+// Resultats:
+//      Ok
+//
+// Historique:
+//    cree le 17/01/2020
+
+class B { 
+
+}
+
+class A extends B {
+
+}

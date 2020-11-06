@@ -1,0 +1,16 @@
+// Description:
+//    Utilisation de l'intruction not
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 14/01/2020
+
+{
+
+    boolean r = true;
+    boolean f = !r;
+    println("f = ", f);
+
+}

@@ -1,0 +1,16 @@
+// Description:
+//    Manque de l'instruction 'return' avec 
+//    liste d'instruction non vide
+//
+// Resultats:
+//    14:8: Error: Missing return statement
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+    int getY() {
+        int x = 5;
+        println("x = ", x);
+    }
+}

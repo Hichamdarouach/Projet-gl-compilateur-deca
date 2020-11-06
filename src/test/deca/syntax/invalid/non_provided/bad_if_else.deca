@@ -1,0 +1,18 @@
+// Description:
+//    Programme minimaliste avec erreur de syntaxe
+//    dans l'utilisation de l'instruction 'else'
+//
+// Resultats:
+//    Erreur : 17:8: no viable alternative at input 'elseprint' 
+//
+// Historique:
+//    cree le 15/01/2020
+
+{
+    boolean a = false;
+    if(a) {
+        
+    }
+    else
+        print("Erreur");
+}

@@ -1,0 +1,15 @@
+// Description:
+//    Manque de l'instruction 'return' avec 
+//    corps de méthode vide
+//
+// Resultats:
+//    12:15: Error: Missing return statement
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+    int getY() {
+        
+    }
+}

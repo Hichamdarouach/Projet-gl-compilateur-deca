@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<project name="Projet GL equipe 23" company="" manager="" phase="" project-start="20200106T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Working" description="A default working day"/>
+      <day-type id="1" name="Nonworking" description="A default non working day"/>
+      <day-type id="2" name="Use base" description="Use day from base calendar"/>
+    </day-types>
+    <calendar id="1" name="Default">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0900" end="1200"/>
+          <interval start="1400" end="1830"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20200111" type="day-type" id="0"/>
+        <day date="20200118" type="day-type" id="0"/>
+        <day date="20200125" type="day-type" id="0"/>
+      </days>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Analyse lexicale &quot;Hello World !&quot;" note="" work="14400" start="20200107T000000Z" end="20200107T150000Z" work-start="20200107T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200107T000000Z"/>
+    </task>
+    <task id="2" name="Analyse lexicale compl&#xE8;te" note="" work="28800" start="20200110T000000Z" end="20200111T093000Z" work-start="20200110T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200110T000000Z"/>
+    </task>
+    <task id="3" name="Analyse syntaxique &quot;Hello World !&quot;" note="" work="28800" start="20200107T000000Z" end="20200108T093000Z" work-start="20200107T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200107T000000Z"/>
+    </task>
+    <task id="4" name="Analyse syntaxique d&#xE9;claration avec et sans initialisation" note="" work="41400" start="20200110T000000Z" end="20200111T150000Z" work-start="20200110T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200110T000000Z"/>
+    </task>
+    <task id="5" name="Analayse syntaxique affectation" note="" work="27000" start="20200111T000000Z" end="20200111T183000Z" work-start="20200111T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200111T000000Z"/>
+    </task>
+    <task id="6" name="Prise en main du code et de la documentation" note="" work="81000" start="20200107T000000Z" end="20200109T183000Z" work-start="20200107T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200107T000000Z"/>
+    </task>
+    <task id="7" name="V&#xE9;rification contextuelle &quot;Hello World !&quot;" note="" work="28800" start="20200108T000000Z" end="20200109T093000Z" work-start="20200108T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200108T000000Z"/>
+    </task>
+    <task id="8" name="Pr&#xE9;paration du premier suivi" note="" work="28800" start="20200109T000000Z" end="20200110T093000Z" work-start="20200109T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200109T000000Z"/>
+    </task>
+    <task id="9" name="D&#xE9;coration et v&#xE9;rification contextuelle d&#xE9;claration " note="" work="41400" start="20200110T000000Z" end="20200111T150000Z" work-start="20200110T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200110T000000Z"/>
+    </task>
+    <task id="10" name="D&#xE9;coration et v&#xE9;rification contextuelle de l'ffectation" note="" work="27000" start="20200111T000000Z" end="20200111T183000Z" work-start="20200111T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200111T000000Z"/>
+    </task>
+    <task id="11" name="D&#xE9;coration et v&#xE9;rification contextuelle des conditions (if-else/while)" note="" work="27000" start="20200112T000000Z" end="20200113T183000Z" work-start="20200113T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200112T000000Z"/>
+    </task>
+    <task id="12" name="D&#xE9;coration et v&#xE9;rification contextuelle du langage sans objet " note="" work="27000" start="20200114T000000Z" end="20200114T183000Z" work-start="20200114T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200114T000000Z"/>
+    </task>
+    <task id="13" name="Mise en place script tests unitaires" note="" work="14400" start="20200111T000000Z" end="20200111T150000Z" work-start="20200111T090000Z" percent-complete="30" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200111T000000Z"/>
+    </task>
+    <task id="14" name="G&#xE9;n&#xE9;ration de code pour d&#xE9;claration et affectation" note="" work="54000" start="20200113T000000Z" end="20200114T183000Z" work-start="20200113T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200113T000000Z"/>
+    </task>
+    <task id="15" name="G&#xE9;n&#xE9;ration de code pour les op&#xE9;rations arithm&#xE9;tiques et print" note="" work="54000" start="20200114T000000Z" end="20200115T183000Z" work-start="20200114T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200114T000000Z"/>
+    </task>
+    <task id="16" name="G&#xE9;n&#xE9;ration de code pour la condition if" note="" work="27000" start="20200115T000000Z" end="20200115T183000Z" work-start="20200115T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200115T000000Z"/>
+    </task>
+    <task id="17" name="G&#xE9;n&#xE9;ration de code pour la condidition while" note="" work="27000" start="20200116T000000Z" end="20200116T183000Z" work-start="20200116T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200116T000000Z"/>
+    </task>
+    <task id="18" name="Rectification de bug et d'erreur pour la g&#xE9;n&#xE9;ration de code sans objet" note="" work="45000" start="20200117T000000Z" end="20200118T160000Z" work-start="20200117T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200117T000000Z"/>
+    </task>
+    <task id="19" name="Ecriture de la documentation" note="" work="324000" start="20200114T000000Z" end="20200127T183000Z" work-start="20200114T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200114T000000Z"/>
+    </task>
+    <task id="20" name="Analyse syntaxique d'une classe avec attributs sans visibilit&#xE9;" note="" work="45000" start="20200116T000000Z" end="20200117T160000Z" work-start="20200116T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200116T000000Z"/>
+    </task>
+    <task id="21" name="Analyse syntaxique avec visibilit&#xE9; et d&#xE9;claration de m&#xE9;thodes" note="" work="41400" start="20200117T000000Z" end="20200118T150000Z" work-start="20200117T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200117T000000Z"/>
+    </task>
+    <task id="22" name="D&#xE9;coration et v&#xE9;rification contextuelle pour la premi&#xE8;re passe" note="" work="41400" start="20200116T000000Z" end="20200117T150000Z" work-start="20200116T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200116T000000Z"/>
+    </task>
+    <task id="23" name="D&#xE9;coration et v&#xE9;rification contextuelle avec objet pour la seconde passe pour les attributs de classe" note="" work="45000" start="20200117T000000Z" end="20200118T160000Z" work-start="20200117T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200117T000000Z"/>
+    </task>
+    <task id="24" name="D&#xE9;coration et v&#xE9;rification contextuelle avec objet pour la seconde passe avec les en-t&#xEA;tes de m&#xE9;thode" note="" work="45000" start="20200120T000000Z" end="20200121T160000Z" work-start="20200120T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200120T000000Z"/>
+    </task>
+    <task id="25" name="D&#xE9;coration et v&#xE9;rification contextuelle pour les corps de m&#xE9;thode " note="" work="45000" start="20200121T000000Z" end="20200122T160000Z" work-start="20200121T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200121T000000Z"/>
+    </task>
+    <task id="26" name="Ecriture de la documentation utilisateur (d&#xE9;but)" note="" work="45000" start="20200121T000000Z" end="20200122T160000Z" work-start="20200121T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200121T000000Z"/>
+    </task>
+    <task id="27" name="Partie B: rectifications pour les visibilit&#xE9;s des variables " note="" work="27000" start="20200122T000000Z" end="20200122T183000Z" work-start="20200122T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200122T000000Z"/>
+    </task>
+    <task id="28" name="G&#xE9;n&#xE9;ration de code classe avec attributs" note="" work="54000" start="20200121T000000Z" end="20200122T183000Z" work-start="20200121T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200121T000000Z"/>
+    </task>
+    <task id="29" name="G&#xE9;n&#xE9;ration de code classe avec m&#xE9;thode vide" note="" work="27000" start="20200123T000000Z" end="20200123T183000Z" work-start="20200123T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200123T000000Z"/>
+    </task>
+    <task id="30" name="G&#xE9;n&#xE9;ration de code compl&#xE8;te avec objet" note="" work="45000" start="20200124T000000Z" end="20200125T160000Z" work-start="20200124T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200124T000000Z"/>
+    </task>
+    <task id="31" name="Mise en place de l'extension" note="" work="95400" start="20200122T000000Z" end="20200125T150000Z" work-start="20200122T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200122T000000Z"/>
+    </task>
+    <task id="32" name="Travail de recherche d'algorithme pour l'extension" note="" work="45000" start="20200114T000000Z" end="20200115T160000Z" work-start="20200114T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200114T000000Z"/>
+    </task>
+    <task id="33" name="Impl&#xE9;mentations de l'algorithme pour le sinus" note="" work="45000" start="20200116T000000Z" end="20200117T160000Z" work-start="20200116T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200116T000000Z"/>
+    </task>
+    <task id="34" name="R&#xE9;solution d'une approximation de Pi sans flottant" note="" work="72000" start="20200118T000000Z" end="20200121T160000Z" work-start="20200118T090000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20200118T000000Z"/>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources/>
+  <allocations/>
+</project>

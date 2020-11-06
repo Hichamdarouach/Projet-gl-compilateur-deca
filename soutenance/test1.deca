@@ -1,0 +1,6 @@
+// Ligne 5 : débordement lexical sur un flottant
+// Juste au dessus du plus grand flottant représentable
+
+{
+	println(0x1.0p128);
+}

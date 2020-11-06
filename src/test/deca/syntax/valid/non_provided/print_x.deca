@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste utilisant l'initialisation avec affectation
+//    et println 
+//
+// Resultats:
+//    x = 1
+//
+// Historique:
+//    cree le 09/01/2020
+
+{
+	int x = 1; 
+	println("x = ", x);
+}

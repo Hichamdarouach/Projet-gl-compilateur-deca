@@ -1,0 +1,18 @@
+// Description:
+//    Programme minimaliste testant la classe Math
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 25/01/2020
+#include "Math.decah"
+{
+  Math m = new Math();
+  float r = -100;
+  float a;
+  while (r <= 100){
+    a = m.atan(r);
+    r = r + 10;
+  }
+  }

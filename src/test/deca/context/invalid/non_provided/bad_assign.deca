@@ -1,0 +1,15 @@
+// Description:
+//    Erreur contextuelle lors d'une affectation
+//
+// Resultats:
+//    14:8: Right value should be int
+// 
+// Historique:
+//    cree le 14/01/2020
+
+{
+    int a; 
+    boolean b = false;
+
+    a = b;
+}

@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste utilisant une classe vide
+//    avec une extension
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 17/01/2020
+
+class Vide extends Neant {}
+{
+  ;
+}

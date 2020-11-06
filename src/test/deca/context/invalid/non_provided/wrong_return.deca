@@ -1,0 +1,15 @@
+// Description:
+//    Mauvais type de retour pour une méthode
+//
+// Resultats:
+//    13:8: Mauvais type de retour
+// 
+// Historique:
+//    cree le 21/01/2020
+
+class A {
+    int getY() {
+        string a = "Hello";
+        return a;
+    }
+}

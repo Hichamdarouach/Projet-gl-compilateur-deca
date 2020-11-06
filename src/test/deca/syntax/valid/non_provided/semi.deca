@@ -1,0 +1,12 @@
+// Description:
+//    Programme main avec uniquement un ';'
+//
+// Resultats:
+//    ok
+//
+// Historique:
+//    cree le 11/01/2020
+
+{
+	;
+}

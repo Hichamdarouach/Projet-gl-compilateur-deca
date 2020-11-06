@@ -1,0 +1,46 @@
+// Description:
+//    
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 27/01/2020
+
+class A {
+    int x;
+    int y;
+
+    void init(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    boolean isA() {
+        return true;
+    }
+}
+
+class B extends A {
+    int z;
+
+    void init(int x, int y, int z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
+    boolean isA() {
+        return false;
+    }
+}
+
+{
+    A point = new B();
+    if(point.isA()) {
+        print("point est de type A");
+    }
+    else {
+        print("point est de type B");
+    }
+}

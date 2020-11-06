@@ -1,0 +1,12 @@
+// Description:
+//    test not
+//
+// Resultats:
+//    Test réussi
+
+{
+  int a = 0;
+  if (!(a == 1)){
+    println("Test réussi");
+  }
+}

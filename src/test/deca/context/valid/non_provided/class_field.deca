@@ -1,0 +1,27 @@
+// Description:
+//    Classe complète avec variables de tout type
+//    primitif et avec plusieurs méthodes
+//
+// Resultats:
+//    Ok
+// 
+// Historique:
+//    cree le 20/01/2020
+
+class B {
+    boolean bool;
+}
+
+class A {
+    int x = 0;
+    protected int a = 7;
+
+    protected float y;
+    float b = 0.7;
+
+    boolean z;
+    boolean c = true;
+
+    string s;
+    string text = "Hello World !";
+}

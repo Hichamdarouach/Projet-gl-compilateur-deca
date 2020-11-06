@@ -1,0 +1,20 @@
+// Description:
+//    Utilisation de l'intruction if sans else
+//
+// Resultats:
+//    
+// 
+// Historique:
+//    cree le 15/01/2020
+
+{
+    int a;
+    float b;
+    boolean c = true;
+    if(true) {
+        a = 3;
+        println("a = ", a);
+    }
+    b = 7.3;
+    println("b = ", b);
+}
